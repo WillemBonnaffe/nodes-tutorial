@@ -1,5 +1,6 @@
 # NODEs Tutorial
 
+---
 ## Setup
 
 Setup the repository in Google Colab:
@@ -10,6 +11,7 @@ Setup the repository in Google Colab:
 * (5) To use GPU acceleration switch to a GPU runtime by selecting Runtime > Change runtime type > T4 GPU (you may have to click the `Connect` button in the top right corner).
 * (6) Follow the instructions in the notebook.
 
+---
 ## Challenge: Can we forecast ecosystem dynamics?
 
 ### Context:
@@ -26,7 +28,7 @@ This is a chance to assess if we can learn a deterministic process from these da
 Train a forecasting model on replicate A and B, then forecast the dynamics of replicate C.
 Most accurate predictions win.
 
-### Data
+### Data:
 
 The data consists of time series of normalised counts of rotifer (noted R), algae (G), and flagellate (B).
 There three replicates:`data_rotifer_A.csv`, `data_rotifer_B.csv`, and `data_rotifer_C_hidden.csv`.
@@ -35,7 +37,7 @@ Only the two first time steps of time series C are provided.
 ### Logistics:
 
 The practical spans two work sessions:
-* In the first session you may look at the code to fit and train a two-dimensional neural ODE or neural difference equation model (NDEs) to predict hare and lynx prey-predator oscillations. See notebooks i2_NODE_time_dependent.ipynb and i2_NDE_time_dependent.ipynb.
+* In the first session you may look at the code to fit and train a two-dimensional neural ODE or neural difference equation model (NDEs) to predict hare and lynx prey-predator oscillations. See notebooks `i2_NODE_time_dependent.ipynb` and `i2_NDE_time_dependent.ipynb`.
 * In the second session you will have to adapt the code of the two-dimension models to fit the algae-flagellate-rotifer time series that have three species. 
 
 Those are just indicative, you may organise your work as you please. 
@@ -57,12 +59,12 @@ The predictions should have the same format as the `data_rotifer_C_hidden.csv` f
 That is, for each time step between 29 and 69, your model should produce 3 values, i.e. one for each species. 
 For example:
 
-t; R; G; B \\
-29; ...; ...; ... \\
-30; ...; ...; ... \\
-31; ...; ...; ... \\
-. \\
-. \\
-. \\
-69; ...; ...; ... \\
+t; R; G; B   
+29; ...; ...; ...   
+30; ...; ...; ...   
+31; ...; ...; ...   
+.   
+.   
+.   
+69; ...; ...; ...   
 
