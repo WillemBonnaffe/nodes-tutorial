@@ -29,14 +29,14 @@ This is a chance to assess if we can learn a deterministic process from these da
 ---
 ### Goal of the practical: 
 
-Train a forecasting model on replicate A and B, then forecast the dynamics of replicate C.
-Most accurate predictions win.
+Train and validate a forecasting model on replicates A and B, then forecast the dynamics of replicate C.
+Most accurate forecast wins.
 
 ---
 ### Data:
 
-The data consists of time series of normalised counts of rotifer (noted R), algae (G), and flagellate (B).
-There three replicates:`data_rotifer_A.csv`, `data_rotifer_B.csv`, and `data_rotifer_C_hidden.csv`.
+The data consist of time series of normalised counts of rotifer (noted R), algae (G), and flagellate (B).
+There are three replicates:`data_rotifer_A.csv`, `data_rotifer_B.csv`, and `data_rotifer_C_hidden.csv`.
 Only the two first time steps of time series C are provided.
 
 ---
@@ -48,6 +48,7 @@ The practical spans two work sessions:
 
 Those are just indicative, you may organise your work as you please. 
 Similarly, while this is a good opportunity to learn about Neural ODEs and NDEs, you may also use another forecasting framework if you feel confident.
+You may work alone or in groups.
 
 ---
 ### Submitting the forecast:
