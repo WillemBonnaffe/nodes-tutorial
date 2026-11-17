@@ -57,12 +57,12 @@ The predictions should have the same format as the `data_rotifer_C_hidden.csv` f
 That is, for each time step between 29 and 69, your model should produce 3 values, i.e. one for each species. 
 For example:
 
-t; R; G; B
-29; ...; ...; ... 
-30; ...; ...; ...
-31; ...; ...; ...
-.
-.
-.
-69; ...; ...; ...
+t; R; G; B \\
+29; ...; ...; ... \\
+30; ...; ...; ... \\
+31; ...; ...; ... \\
+. \\
+. \\
+. \\
+69; ...; ...; ... \\
 
