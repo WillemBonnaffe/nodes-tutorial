@@ -47,8 +47,13 @@ The practical spans two work sessions:
 * In the second session you will have to adapt the code of the two-dimension models to fit the algae-flagellate-rotifer time series that have three species. 
 
 Those are just indicative, you may organise your work as you please. 
-Similarly, while this is a good opportunity to learn about Neural ODEs and NDEs, you may also use another forecasting framework if you feel confident.
 You may work alone or in groups.
+
+---
+### Model:
+
+The notebooks are starting points, you do not have to replicate exactly the model architecture to make the predictions.
+While this is a good opportunity to learn about Neural ODEs and NDEs, you may also use another forecasting framework if you feel confident.
 
 ---
 ### Submitting the forecast:
