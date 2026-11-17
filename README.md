@@ -1,6 +1,7 @@
 # NODEs Tutorial
 
 ---
+---
 ## Setup
 
 Setup the repository in Google Colab:
@@ -12,8 +13,10 @@ Setup the repository in Google Colab:
 * (6) Follow the instructions in the notebook.
 
 ---
+---
 ## Challenge: Can we forecast ecosystem dynamics?
 
+---
 ### Context:
 
 It is not clear to what extent dynamics of natural systems are predictable.
@@ -23,17 +26,20 @@ Each microcosm contains a population of algae, flagellates (a bacteria that feed
 They observed that the dynamics the populations in these replicates exhibited very similar oscillations.
 This is a chance to assess if we can learn a deterministic process from these data that is generalisable.
 
+---
 ### Goal of the practical: 
 
 Train a forecasting model on replicate A and B, then forecast the dynamics of replicate C.
 Most accurate predictions win.
 
+---
 ### Data:
 
 The data consists of time series of normalised counts of rotifer (noted R), algae (G), and flagellate (B).
 There three replicates:`data_rotifer_A.csv`, `data_rotifer_B.csv`, and `data_rotifer_C_hidden.csv`.
 Only the two first time steps of time series C are provided.
 
+---
 ### Logistics:
 
 The practical spans two work sessions:
@@ -43,6 +49,7 @@ The practical spans two work sessions:
 Those are just indicative, you may organise your work as you please. 
 Similarly, while this is a good opportunity to learn about Neural ODEs and NDEs, you may also use another forecasting framework if you feel confident.
 
+---
 ### Submitting the forecast:
 
 By 4pm on the second session, you should submit your forecast for the predicted density of rotifer algae and flagellates in replicate C.
@@ -52,6 +59,7 @@ The winner will be determined by computation of the mean squared error (MSE) of 
 Submit your file at the following link: 
 https://drive.google.com/drive/folders/1j5EtftD9GBql88rxwTcKPga8_k9k3RQZ?usp=sharing
 
+---
 ### Submission format:
 
 The prediction file should be a .csv named after your team name, e.g. `team-rotifire.csv`.
