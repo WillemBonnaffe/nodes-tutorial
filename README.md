@@ -6,9 +6,9 @@
 
 Setup the repository in Google Colab:
 * (1) Open Google Colab (`https://colab.research.google.com/`).
-* (2) Sign into your Google account.
+* (2) Sign in to your Google account.
 * (3) Select File > Open notebook > GitHub and enter the URL of the repository (`https://github.com/WillemBonnaffe/nodes-tutorial`).
-* (4) Open the notebook `ì2_NODE_time_dependent.ipynb`.
+* (4) Open the notebook `i2_NODE_time_dependent.ipynb`.
 * (5) To use GPU acceleration switch to a GPU runtime by selecting Runtime > Change runtime type > T4 GPU (you may have to click the `Connect` button in the top right corner).
 * (6) Follow the instructions in the notebook.
 
@@ -22,8 +22,8 @@ Setup the repository in Google Colab:
 It is not clear to what extent dynamics of natural systems are predictable.
 Replicated experiments offer the chance to assess the consistency of our predictions across multiple time series.
 The experiment by Hiltunen et al. (2013) provides time series of population counts of three replicated microcosms (tiny ecosystems).
-Each microcosm contains a population of algae, flagellates (a bacteria that feeds on the algae), and rotifers (a tiny animal that feeds on both the algae and the flagellate).
-They observed that the dynamics the populations in these replicates exhibited very similar oscillations.
+Each microcosm contains a population of algae, flagellates (organisms that feeds on the algae), and rotifers (a tiny animal that feeds on both the algae and the flagellate).
+They observed that the dynamics of the populations in these replicates exhibited very similar oscillations.
 This is a chance to assess if we can learn a deterministic process from these data that is generalisable.
 
 ---
@@ -35,9 +35,9 @@ Most accurate forecast wins.
 ---
 ### Data:
 
-The data consist of time series of normalised counts of rotifer (noted R), algae (G), and flagellate (B).
-There are three replicates:`data_rotifer_A.csv`, `data_rotifer_B.csv`, and `data_rotifer_C_hidden.csv`.
-Only the two first time steps of time series C are provided.
+The data consist of time series of normalised counts of rotifer (denoted R), algae (G), and flagellate (B).
+There are three replicates: `data_rotifer_A.csv`, `data_rotifer_B.csv`, and `data_rotifer_C_hidden.csv`.
+Only the first two time steps of time series C are provided.
 
 ---
 ### Logistics:
@@ -58,7 +58,7 @@ While this is a good opportunity to learn about Neural ODEs and NDEs, you may al
 ---
 ### Submitting the forecast:
 
-By 4pm on the second session, you should submit your forecast for the predicted density of rotifer algae and flagellates in replicate C.
+By 4pm during the second session, you should submit your forecast for the predicted densities of rotifer algae and flagellates in replicate C.
 The forecast should be submitted as a .csv file in the format specified below to allow for fast comparison and identification of the winner.
 The winner will be determined by computation of the mean squared error (MSE) of the predictions vs the real values.
 
